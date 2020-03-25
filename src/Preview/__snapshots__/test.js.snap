@@ -1,0 +1,70 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`show default preview 1`] = `
+<div
+  className="google"
+  id="serp-preview"
+>
+  <a
+    href="#"
+  >
+    <h3>
+      test title
+    </h3>
+    <cite>
+      test.com
+    </cite>
+  </a>
+  <div
+    className="metadescription"
+  >
+    meta description
+  </div>
+</div>
+`;
+
+exports[`show preview for bing 1`] = `
+<div
+  className="bing"
+  id="serp-preview"
+>
+  <a
+    href="#"
+  >
+    <h3>
+      test title
+    </h3>
+    <cite>
+      test.com
+    </cite>
+  </a>
+  <div
+    className="metadescription"
+  >
+    meta description
+  </div>
+</div>
+`;
+
+exports[`show preview for yahoo 1`] = `
+<div
+  className="yahoo"
+  id="serp-preview"
+>
+  <a
+    href="#"
+  >
+    <h3>
+      test title
+    </h3>
+    <cite>
+      test.com
+    </cite>
+  </a>
+  <div
+    className="metadescription"
+  >
+    meta description
+  </div>
+</div>
+`;

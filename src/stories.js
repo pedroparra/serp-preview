@@ -1,0 +1,2 @@
+// STYLES
+import './index.css'

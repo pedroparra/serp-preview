@@ -1,0 +1,17 @@
+:root {
+    /* Colors */
+    --google-link:             #1a0dab;
+    --google-link-visited:     #609;
+    --google-text-content:     #3C4043;
+    --google-url:              #3C4043;
+
+    --bing-link:               #003dbf;
+    --bing-link-visited:       #600090;
+    --bing-text-content:       #767676;
+    --bing-url:                #006d21;
+
+    --yahoo-link:              #003dbf;
+    --yahoo-link-visited:      #600090;
+    --yahoo-text-content:      #767676;
+    --yahoo-url:               #007542;
+}
