@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`show preview 1`] = `
+<div
+  className="sc-AxjAm dRUbXm"
+>
+  <h3
+    className="sc-AxirZ epSLMX"
+  >
+    <a
+      className="sc-AxhUy dlFYfN"
+      href="#"
+    >
+      test title
+    </a>
+  </h3>
+  <cite
+    className="sc-AxhCb eMDuwR"
+  >
+    test.com
+  </cite>
+  <p
+    className="sc-AxiKw cGRTAA"
+  />
+</div>
+`;
