@@ -1,27 +1,81 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`show preview 1`] = `
+.c0 {
+  position: relative;
+  font-family: arial,sans-serif;
+  text-align: left;
+  max-width: 600px;
+}
+
+.c2 {
+  display: inline-block;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 1.3;
+  margin: 0 0 3px 0;
+  padding: 4px 0 0;
+}
+
+.c4 {
+  color: #3C4043;
+  line-height: 1.58;
+  font-size: 14px;
+  word-wrap: break-word;
+}
+
+.c4 em {
+  font-weight: bold;
+  font-style: normal;
+}
+
+.c3 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  line-height: 1.3;
+  display: inline-block;
+  font-size: 14px;
+  color: #3C4043;
+  font-style: normal;
+  -webkit-text-size-adjust: none;
+}
+
+.c1 {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: #1a0dab;
+  outline: 0;
+}
+
+.c1:hover h3 {
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
 <div
-  className="sc-AxjAm jxzSQL"
+  className="c0"
 >
   <a
-    className="sc-AxhUy dnXArJ"
+    className="c1"
     href="#"
   >
     <br />
     <h3
-      className="sc-AxirZ ewbOQX"
+      className="c2"
     >
       test title
     </h3>
     <cite
-      className="sc-AxhCb gAgaYe"
+      className="c3"
     >
       test.com
     </cite>
   </a>
   <div
-    className="sc-AxiKw eDtRNx"
+    className="c4"
   />
 </div>
 `;

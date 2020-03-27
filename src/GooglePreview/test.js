@@ -1,6 +1,7 @@
 import React from 'react'
 import GooglePreview from '.'
 import renderer from 'react-test-renderer'
+import 'jest-styled-components'
 
 it('show preview', () => {
   const tree = renderer

@@ -1,26 +1,90 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`show preview 1`] = `
+.c0 {
+  text-align: left;
+  font-family: 'helvetica neue',helvetica,arial,sans-serif;
+  max-width: 600px;
+}
+
+.c1 {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 1.308em;
+  margin: 0;
+  padding: 0;
+}
+
+.c4 {
+  font-size: 13px;
+  line-height: 16px;
+  color: #525252;
+  margin: 0;
+  padding: 0;
+}
+
+.c4 em {
+  font-weight: bold;
+  font-style: normal;
+}
+
+.c3 {
+  padding-bottom: 1px;
+  line-height: 20px;
+  font-size: 14px;
+  color: #007542;
+  word-wrap: break-word;
+  font-style: normal;
+  font-weight: 400;
+  display: block;
+}
+
+.c3::after {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  width: 4px;
+  height: 4px;
+  border-bottom: 2px solid #777;
+  border-left: 2px solid #777;
+  -webkit-transform: rotate(-45deg) translateY(-2px);
+  -ms-transform: rotate(-45deg) translateY(-2px);
+  transform: rotate(-45deg) translateY(-2px);
+  margin-left: 7px;
+}
+
+.c2 {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: #000099;
+  outline: 0;
+}
+
+.c2:hover {
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
 <div
-  className="sc-AxjAm dRUbXm"
+  className="c0"
 >
   <h3
-    className="sc-AxirZ epSLMX"
+    className="c1"
   >
     <a
-      className="sc-AxhUy dlFYfN"
+      className="c2"
       href="#"
     >
       test title
     </a>
   </h3>
   <cite
-    className="sc-AxhCb eMDuwR"
+    className="c3"
   >
     test.com
   </cite>
   <p
-    className="sc-AxiKw cGRTAA"
+    className="c4"
   />
 </div>
 `;
