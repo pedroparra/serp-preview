@@ -43,3 +43,12 @@ const Example = () => (
   </div>
 )
 ```
+
+## API
+
+| Property | Prop Type | Required | Default | Description |
+|----|----|----|----|---- |
+| title| string| yes | -| Title |
+| description| string / node / [nodes] | - | null | Metadescription |
+| url| string| yes | -| Url |
+| link| string| - | # | Link |
