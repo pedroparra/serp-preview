@@ -1,6 +1,6 @@
 {
   "name": "serp-preview",
-  "version": "0.1.0-beta.5",
+  "version": "0.1.0",
   "description": "Show how your website will appear in searchs engine results",
   "license": "MIT",
   "main": "dist/index.js",
@@ -47,8 +47,7 @@
     "gh-pages": "^2.2.0",
     "jest": "^25.1.0",
     "jest-styled-components": "^7.0.0",
-    "react-test-renderer": "^16.13.1",
-    "styled-components": "^5.0.1"
+    "react-test-renderer": "^16.13.1"
   },
   "homepage": "https://github.com/pedroparra/serp-preview.git",
   "repository": {
@@ -63,5 +62,8 @@
     "SERP",
     "SEO",
     "preview"
-  ]
+  ],
+  "dependencies": {
+    "styled-components": "^5.0.1"
+  }
 }
