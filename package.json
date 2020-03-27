@@ -1,8 +1,9 @@
 {
   "name": "serp-preview",
   "version": "0.0.1",
-  "description": "Component for React - Show how your website will appear in searchs engine results",
-  "main": "index.js",
+  "description": "Show how your website will appear in searchs engine results",
+  "license": "MIT",
+  "main": "src",
   "scripts": {
     "start": "concurrently npm:watch:css npm:guide",
     "lint": "eslint ./src",
@@ -15,8 +16,6 @@
     "build-storybook": "build-storybook",
     "prepack": "npm test && npm run build"
   },
-  "author": "",
-  "license": "MIT",
   "peerDependencies": {
     "react": "^16.13.1",
     "prop-types": "^15.7.2"
