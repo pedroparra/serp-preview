@@ -11,7 +11,7 @@
 
 Using npm:
 ```shell
-$ npm i lodash
+$ npm i serp-preview
 ```
 
 ## Usage
