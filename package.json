@@ -1,6 +1,6 @@
 {
   "name": "serp-preview",
-  "version": "0.0.1",
+  "version": "0.1.0-beta.1",
   "description": "Show how your website will appear in searchs engine results",
   "license": "MIT",
   "main": "src",
@@ -39,5 +39,14 @@
     "jest": "^25.1.0",
     "react-test-renderer": "^16.13.1",
     "styled-components": "^5.0.1"
-  }
+  },
+  "keywords": [
+    "google",
+    "search",
+    "scraper",
+    "google scraper",
+    "SERP",
+    "SEO",
+    "preview"
+  ]
 }
