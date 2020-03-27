@@ -7,13 +7,11 @@
     "start": "concurrently npm:watch:css npm:guide",
     "lint": "eslint ./src",
     "lint:fix": "eslint ./src --fix",
-    "watch": "concurrently npm:watch:js npm:watch:css",
-    "watch:js": "babel ./src -d dist --ignore 'src/**/stories.js','src/**/test.js' --watch",
-    "watch:css": "postcss src/index.css -o dist/index.css --watch",
+    "watch": "babel ./src -d dist --ignore 'src/**/stories.js','src/**/test.js' --watch",
     "test": "npm run lint && jest ./src",
     "test:update": "jest ./src -u",
     "guide": "start-storybook -p 2002",
-    "build": "rm -rf dist && mkdir dist && babel ./src -d dist --ignore 'src/**/stories.js','src/**/test.js' && postcss src/index.css -o dist/index.css",
+    "build": "rm -rf dist && mkdir dist && babel ./src -d dist --ignore 'src/**/stories.js','src/**/test.js'",
     "build-storybook": "build-storybook",
     "prepack": "npm test && npm run build"
   },
@@ -21,7 +19,6 @@
   "license": "MIT",
   "peerDependencies": {
     "react": "^16.13.1",
-    "classnames": "^2.2.6",
     "prop-types": "^15.7.2"
   },
   "devDependencies": {
@@ -37,16 +34,10 @@
     "babel-jest": "^25.1.0",
     "babel-loader": "^8.1.0",
     "concurrently": "^5.1.0",
+    "eslint": "^6.8.0",
     "eslint-plugin-react": "^7.19.0",
     "jest": "^25.1.0",
-    "postcss": "^7.0.27",
-    "postcss-cli": "^7.1.0",
-    "postcss-extend": "^1.0.5",
-    "postcss-import": "^12.0.1",
-    "postcss-preset-env": "^6.7.0",
-    "react-test-renderer": "^16.13.1"
-  },
-  "dependencies": {
-    "eslint": "^6.8.0"
+    "react-test-renderer": "^16.13.1",
+    "styled-components": "^5.0.1"
   }
 }
