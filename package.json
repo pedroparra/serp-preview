@@ -5,7 +5,7 @@
   "license": "MIT",
   "main": "dist/index.js",
   "scripts": {
-    "start": "concurrently npm:watch:css npm:guide",
+    "start": "concurrently npm:watch npm:guide",
     "lint": "eslint ./src",
     "lint:fix": "eslint ./src --fix",
     "watch": "babel ./src -d dist --ignore 'src/**/stories.js','src/**/test.js' --watch",

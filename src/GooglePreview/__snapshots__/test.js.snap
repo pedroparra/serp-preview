@@ -17,14 +17,14 @@ exports[`show preview 1`] = `
   padding: 4px 0 0;
 }
 
-.c4 {
+.c5 {
   color: #3C4043;
   line-height: 1.58;
   font-size: 14px;
   word-wrap: break-word;
 }
 
-.c4 em {
+.c5 em {
   font-weight: bold;
   font-style: normal;
 }
@@ -37,6 +37,14 @@ exports[`show preview 1`] = `
   padding-bottom: 1px;
   line-height: 1.3;
   display: inline-block;
+  white-space: nowrap;
+  overflow: hidden;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  width: 100%;
+}
+
+.c4 {
   font-size: 14px;
   color: #3C4043;
   font-style: normal;
@@ -71,11 +79,15 @@ exports[`show preview 1`] = `
     <cite
       className="c3"
     >
-      test.com
+      <span
+        className="c4"
+      >
+        test.com
+      </span>
     </cite>
   </a>
   <div
-    className="c4"
+    className="c5"
   />
 </div>
 `;
