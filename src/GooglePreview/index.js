@@ -35,11 +35,20 @@ const Url = styled.cite`
   padding-bottom: 1px;
   line-height: 1.3;
   display: inline-block;
+  white-space: nowrap;
+  overflow: hidden;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  width: 100%;
+`
+
+const UrlText = styled.span`
   font-size: 14px;
   color: #3C4043;
   font-style: normal;
   -webkit-text-size-adjust: none;
 `
+
 const Link = styled.a`
   text-decoration: none;
   color: #1a0dab;
@@ -59,7 +68,9 @@ const GooglePreview = ({ title, description, url, link }) =>
     <Link href={link}>
       <br />
       <Title>{title}</Title>
-      <Url>{formatUrl(url)}</Url>
+      <Url>
+        <UrlText>{formatUrl(url)}</UrlText>
+      </Url>
     </Link>
     <Description>{description}</Description>
   </Wrapper>
