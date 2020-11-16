@@ -60,8 +60,12 @@ const DomainText = styled.span`
   font-size: 12px;
 `
 
+const formatUrl = (url) => url
+  .replace(/https?:\/\//, '')
+  .replace(/\//g, ' › ')
+
 const GoogleMobilePreview = ({ title, description, url, link }) => {
-  const domain = url ? url.replace('http://', '').replace('https://', '').split('/')[0] : ''
+  const domain = url ? formatUrl(url) : ''
   return (
     <Wrapper>
       <Url>
