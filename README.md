@@ -17,7 +17,7 @@ $ npm i serp-preview
 ## Usage
 
 ```js
-import { GooglePreview, BingPreview, YahooPreview } from "serp-preview";
+import { GooglePreview, BingPreview, YahooPreview, GoogleMobilePreview } from "serp-preview";
 
 const Example = () => (
   <div>
@@ -39,6 +39,12 @@ const Example = () => (
       description="A framework for building native apps using React."
       url="https://reactnative.dev"
       link="https://reactnative.dev" />
+
+    <GoogleMobilePreview
+      title="🥇React – A JavaScript library for building user interfaces"
+      description="React makes it painless to create interactive UIs."
+      url="https://reactjs.org"
+      link="https://reactjs.org" />
 
   </div>
 )
